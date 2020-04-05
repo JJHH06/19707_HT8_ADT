@@ -3,6 +3,8 @@
  *
  */
 
+//the only thing I did here was changing the format of the comments
+
 public interface iPriorityQueue<E extends Comparable<E>>
 {
 	/**

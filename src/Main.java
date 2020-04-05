@@ -5,16 +5,13 @@ import java.util.PriorityQueue;
 import java.util.Scanner;
 
 /**
- * 
- */
-
-/**
- * @author josej
+ * @author Jose Hurtarte 19707
  *
  */
 public class Main {
 
 	/**
+	 * main static method of hospital
 	 * @param args
 	 */
 	public static void main(String[] args) {
@@ -59,9 +56,12 @@ public class Main {
 			
 			switch(optionMenu) {
 			case "1":
+				System.out.println("\nAttended patient:");
 				System.out.println(hospital.remove());
+				System.out.println();
 				break;
 			case "2":
+				System.out.println("\nPatients in queue:");
 				System.out.println(hospital.toString());
 				break;
 			

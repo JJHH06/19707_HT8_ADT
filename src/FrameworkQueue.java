@@ -1,4 +1,10 @@
 import java.util.PriorityQueue;
+/**
+ * 
+ * @author Jose Hurtarte 19707
+ *
+ * @param <E> The object that the FrameworkQueue is going to manage
+ */
 
 public class FrameworkQueue<E extends Comparable<E>> implements iPriorityQueue<E> {
 
