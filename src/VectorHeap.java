@@ -164,7 +164,7 @@ public class VectorHeap<E extends Comparable<E>> implements iPriorityQueue<E>
 
 	@Override
 	/**
-	 * Devuelve el primer elemento del vector
+	 * returns first element of vector
 	 */
 	public E getFirst() {
 		// TODO Auto-generated method stub
@@ -173,7 +173,7 @@ public class VectorHeap<E extends Comparable<E>> implements iPriorityQueue<E>
 
 	@Override
 	/**
-	 * devuelve True si el vector esta vacio
+	 * Returns True if vector is empty
 	 * 
 	 */
 	public boolean isEmpty() {
