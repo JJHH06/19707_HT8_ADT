@@ -25,7 +25,7 @@ import java.util.Vector;
 
 
 
-public class VectorHeap<E extends Comparable<E>> implements PriorityQueue<E>
+public class VectorHeap<E extends Comparable<E>> implements iPriorityQueue<E>
 {
 
 	protected Vector<E> data; // the data, kept in heap order
@@ -197,4 +197,17 @@ public class VectorHeap<E extends Comparable<E>> implements PriorityQueue<E>
 	public void clear() {
 		data = new Vector<E>();
 	}
+
+	@Override
+	public String toString() {
+		String list = "";
+		for (E e : data) {
+			list += e + "\n";
+		}
+		return list;
+	}
+	
+	
+	
+	
 }
