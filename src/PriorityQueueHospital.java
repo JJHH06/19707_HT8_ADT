@@ -5,7 +5,7 @@ import java.util.PriorityQueue;
 
 public class PriorityQueueHospital {
 	
-	private PriorityQueue<Paciente> hospital = new PriorityQueue<Paciente>();
+	private PriorityQueue<Patient> hospital = new PriorityQueue<Patient>();
 	
 	public PriorityQueueHospital() {
 		fillHospital();
@@ -25,7 +25,7 @@ public class PriorityQueueHospital {
 		
 		while((linea = br.readLine()) != null){
 		listaLinea = linea.split(", ");
-		hospital.add(new Paciente(listaLinea[0],listaLinea[1],listaLinea[2]));
+		hospital.add(new Patient(listaLinea[0],listaLinea[1],listaLinea[2]));
 		
 		}
 		}
